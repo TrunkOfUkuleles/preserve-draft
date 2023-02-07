@@ -11,7 +11,7 @@ const [picHeight, setPicHeight] = useState("300px");
 function enbiggen(){
   if (!picOpen){
     setPicWidth("80%");
-    setPicHeight("15vh");
+    setPicHeight("20%");
   }
 
   if (picOpen){
