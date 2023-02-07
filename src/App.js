@@ -7,7 +7,7 @@ function App() {
 const [picOpen, setPicOpen] = useState(false);
 const [picWidth, setPicWidth] = useState("500px");
 const [picHeight, setPicHeight] = useState("300px");
-// const [popped, setPopped] = useState("none");
+const [popped, setPopped] = useState("none");
 
 function enbiggen(){
   if (!picOpen){
@@ -22,21 +22,21 @@ function enbiggen(){
   return setPicOpen(!picOpen)
 }
 
-// let holder = <></>;
+let holder = <></>;
 let shoepic = <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture absorbing dribox with high barrier zipper bag" id="shoe-pic" width="200px" height="135px" />;
 
-// function PopOut(el){
-// if (popped==="none"){
-//  holder = el;
-//  setPopped("visible")
-//  console.log('HI')
-//  }
-//  else if (popped==="visible"){
-//   holder = <></>
-//   setPopped("none")
-//   return
-//  }
-// }
+function PopOut(el){
+if (popped==="none"){
+ holder = el;
+ setPopped("visible")
+ console.log('HI')
+ }
+ else if (popped==="visible"){
+  holder = <></>
+  setPopped("none")
+  console.log("BYE")
+ }
+}
   // function Contacting(){
   //   <script type="text/javascript" src="https://form.jotform.com/jsform/230366115214041"></script> 
 
@@ -45,12 +45,12 @@ let shoepic = <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture 
   return (
     <div className="App">
     <div id="Header-Cont">
-      <div id="Header-Title"><img src=".\PTlogo.png" id="logo-badge" width="75px" height="75px" title="Preservation Technologies Logo" alt="header logo for preservatioin technologies information page" />
+      <div id="Header-Title" onClick={()=>PopOut(shoepic)}><img src=".\PTlogo.png" id="logo-badge" width="75px" height="75px" title="Preservation Technologies Logo" alt="header logo for preservatioin technologies information page" />
 <h1 id="Title-Text">Preservation Technologies2</h1></div>
       {/* <div id="Header-Stuffs">Contact Us</div> */}
     </div>
       <div id="Main-Body">
-        <div id="popout" visible="none" width="500px;" height="500px">{shoepic}</div>
+        <div id="popout" visible="hidden" width="500px;" height="500px">{shoepic}</div>
         <div id="section1" className="section-container">
           <div id="section1-title" className="section-title"><h2>Preservation Vs Time and Environment</h2></div>
           <div id="section1-cont">Keeping your goods fresh has always been a struggle. From everyday foods to the historical and cultural artifacts we use to look 
