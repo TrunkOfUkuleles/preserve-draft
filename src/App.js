@@ -25,11 +25,11 @@ function enbiggen(){
 let holder = <></>
 let shoepic = <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture absorbing dribox with high barrier zipper bag" id="shoe-pic" width="200px" height="135px" />;
 const PopOut = (el) => {
-if (popped="none"){
+if (popped=="none"){
  holder = el;
  setPopped("visible")
  }
- else if (popped="visible"){
+ else if (popped=="visible"){
   holder = <></>
   setPopped("none")
  }
