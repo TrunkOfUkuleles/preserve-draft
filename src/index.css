@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#806D40
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* > a{
+color: #084B83;
+}
+.App{
+  background-color:#806D40;
+}
+#Main-Body{
+    border: solid #F5F3F5 3px;
+    background-color: #F5F3F5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    margin: 20px;
+    justify-items: flex-start;
+}
+#Header-Cont{
+    height: 11vh;
+    margin: 10px auto; 
+    display: flex;
+    align-items: center;
+    padding:10px;
+    justify-content: space-around;
+}
+#logo-badge{
+  margin: 0px 20px;
+}
+#Header-Title{
+  display:flex;
+  align-items: center;
+}
+#Title-Text{
+  font-size: 45px;
+}
+#section1{
+  padding: 5px 10px;
+  margin: 10px auto;
+}
+#section2-cont1{
+  display:flex;
+}
+#section2-cont2{
+  display: flex;
+  text-align: left;
+}
+#section2-cont3 {
+  display: flex;
+  text-align: left;
+}
+
+#oxygen-free-study{
+  margin: auto 25px;
+}
+#Footer-Cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+.section-container{
+    /* border: solid red 1px; */
+    width: 90%;
+    padding: 10px;
+    margin: 20px auto;
+}
+#section2{
+  width: 70%;
+  padding: 5px 10px;
+}
+#section3-title{
+  text-align:right
+}
+#section3{
+  max-width: 80%;
+  margin-left: 10vw;
+  text-align:left;
+  padding: 5px 10px;
+}
+#section4{
+  max-width: 80%;
+  margin-right: 15vw;
+  text-align:left;
+  padding: 5px 10px;
+}
+.section-title{
+  font-family: Open Sans;
+  font-size: 28px;
+}
+#woodpic1{
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 7px;
+
+}
+#shoe-pic{
+  float: right;
+
+}
+#concluding{
+  margin: 25px auto;
+  max-width:85%;
+  padding: 5px 10px;
+}
+#review-pic{
+  margin: 15px auto;
+}
