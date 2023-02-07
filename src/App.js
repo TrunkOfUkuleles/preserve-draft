@@ -85,7 +85,7 @@ function enbiggen(){
         <div id="section3" className="section-container">
           <div id="section3-title" className="section-title"><a id="" href="https://www.impakcorporation.com/wood-story" ><h2>Oxygen Absorbers For Combating Pests</h2></a></div>
           <div id="section3-cont">
-            <a href="https://www.impakcorporation.com/wood-story" alt="Bwteen the Lines Case Study for preserving infested wood art peice" ><img id="woodpic1" src="wood-story-figure2.jpg" alt="Between the Lines Wooden Sculpture needing treatment for beattle infestation" title="Between the Lines " width="130px" height="110px" /></a>
+            <a href="https://www.impakcorporation.com/wood-story" alt="Bwteen the Lines Case Study for preserving infested wood art peice" ><img id="woodpic1" src="wood-story-figure2.jpg" alt="Between the Lines Wooden Sculpture needing treatment for beattle infestation" title="Between the Lines " width="2000px" height="150px" /></a>
             <p>&ensp;&ensp; Even today we are still using some of the same technologies and knowledge developed by scientists and preservationists around 
           the world. Another smaller example was during an Art Exhibition at the Everson Museum of Art in New York. During the exhibition staff noticed 
           telltale signs of sawdust around the peice of art. Fearing an infestation of some kind that could spread to other pieces, the modern sculpture was pulled 
@@ -103,7 +103,7 @@ function enbiggen(){
         </div>
         <div id="section4" className="section-container">
           <div id="section4-title" className="section-title"><h2>Taking Preservation Technology Home</h2></div>
-          <div id="section4-cont"> <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture absorbing dribox with high barrier zipper bag" id="shoe-pic" />
+          <div id="section4-cont"> <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture absorbing dribox with high barrier zipper bag" id="shoe-pic" width="200px" height="135px" />
           &ensp;&ensp;These breakthroughs in how we preserve things do not just help museum staff. The knowledge and development of new modes of 
           preservation trickle down to help everyday people in their own homes. One small example of that is in cases like the proliferation of oxygen scavengers. 
           Anyone who has lived somewhere with regular rainfall has had to deal with funky smells and growths on clothing and fabric goods. In some cases when you 
