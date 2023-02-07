@@ -85,7 +85,7 @@ function enbiggen(){
         <div id="section3" className="section-container">
           <div id="section3-title" className="section-title"><a id="" href="https://www.impakcorporation.com/wood-story" ><h2>Oxygen Absorbers For Combating Pests</h2></a></div>
           <div id="section3-cont">
-            <a href="https://www.impakcorporation.com/wood-story" alt="Bwteen the Lines Case Study for preserving infested wood art peice" ><img id="woodpic1" src="wood-story-figure2.jpg" alt="Between the Lines Wooden Sculpture needing treatment for beattle infestation" title="Between the Lines " width="2000px" height="150px" /></a>
+            <a href="https://www.impakcorporation.com/wood-story" alt="Bwteen the Lines Case Study for preserving infested wood art peice" ><img id="woodpic1" src="wood-story-figure2.jpg" alt="Between the Lines Wooden Sculpture needing treatment for beattle infestation" title="Between the Lines " width="200px" height="150px" /></a>
             <p>&ensp;&ensp; Even today we are still using some of the same technologies and knowledge developed by scientists and preservationists around 
           the world. Another smaller example was during an Art Exhibition at the Everson Museum of Art in New York. During the exhibition staff noticed 
           telltale signs of sawdust around the peice of art. Fearing an infestation of some kind that could spread to other pieces, the modern sculpture was pulled 
