@@ -11,7 +11,7 @@ const [picHeight, setPicHeight] = useState("300px");
 function enbiggen(){
   if (!picOpen){
     setPicWidth("80%");
-    setPicHeight("500px");
+    setPicHeight("15vh");
   }
 
   if (picOpen){
@@ -66,7 +66,7 @@ function enbiggen(){
               deterioration possible. </p>
             </div>
             <br />
-            <img src="RHchart.JPG" alt="chart showing levels of activity at various RH and oxygen levels" title="Relative Humidity and Oxygen level chart for preservation" width="400px" height="250px" />
+            <img id="study-chart" src="RHchart.JPG" alt="chart showing levels of activity at various RH and oxygen levels" title="Relative Humidity and Oxygen level chart for preservation" />
             <div id="section2-cont3">
             <p>&ensp;&ensp;When the study began in 1985, one of the more prolific forms of preservation was using a pressurized case filled with Nitrous gas to replace any 
               stagnant air. While effective for long term exhibitions, this technique would often come with high maintenance costs, and require the handling of high 

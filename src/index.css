@@ -17,6 +17,34 @@ code {
 * > a{
 color: #084B83;
 }
+
+@media screen and (max-width: 1000px){
+#section2-cont1{
+  flex-direction: column;
+}
+#oxygen-free-study{
+  margin: auto;
+}
+}
+
+@media screen and (max-width: 650px){
+  #Main-Body{
+    border: solid #F5F3F5 3px;
+    background-color: #F5F3F5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5vw;
+    justify-items: flex-start;
+}
+#study-chart{
+  max-width: 70vw;
+}
+#woodpic1{
+  float: none;
+}
+}
+
 .App{
   background-color:#806D40;
 }
@@ -63,7 +91,10 @@ color: #084B83;
   display: flex;
   text-align: left;
 }
-
+#study-chart{
+  max-width:400px;
+  max-height: 250px;
+}
 #oxygen-free-study{
   margin: auto 25px;
 }
@@ -110,7 +141,6 @@ color: #084B83;
 }
 #shoe-pic{
   float: right;
-
 }
 #concluding{
   margin: 25px auto;
