@@ -33,7 +33,7 @@ if (popped==="none"){
  }
  else if (popped==="visible"){
   holder = <></>
-  setPopped("none")
+  setPopped("hidden")
   console.log("BYE")
  }
 }
@@ -52,6 +52,7 @@ if (popped==="none"){
       <div id="Main-Body">
         <div id="popout" visible={popped} width="500px;" height="500px">{holder}</div>
         <div id="section1" className="section-container">
+          <buttion submit={PopOut(<>"hello"</>)}>test</buttion>
           <div id="section1-title" className="section-title"><h2>Preservation Vs Time and Environment</h2></div>
           <div id="section1-cont">Keeping your goods fresh has always been a struggle. From everyday foods to the historical and cultural artifacts we use to look 
           back on our society, the conservation of goods in the face of environmental, biological, and physical factors has always been a balancing act to find an 
