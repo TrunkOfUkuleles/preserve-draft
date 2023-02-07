@@ -7,7 +7,7 @@ function App() {
 const [picOpen, setPicOpen] = useState(false);
 const [picWidth, setPicWidth] = useState("500px");
 const [picHeight, setPicHeight] = useState("300px");
-const [popped, setPopped] = useState("none");
+const [popped, setPopped] = useState("hidden");
 
 function enbiggen(){
   if (!picOpen){
@@ -50,7 +50,7 @@ if (popped==="none"){
       {/* <div id="Header-Stuffs">Contact Us</div> */}
     </div>
       <div id="Main-Body">
-        <div id="popout" visible="hidden" width="500px;" height="500px">{holder}</div>
+        <div id="popout" visible={popped} width="500px;" height="500px">{holder}</div>
         <div id="section1" className="section-container">
           <div id="section1-title" className="section-title"><h2>Preservation Vs Time and Environment</h2></div>
           <div id="section1-cont">Keeping your goods fresh has always been a struggle. From everyday foods to the historical and cultural artifacts we use to look 
