@@ -28,13 +28,14 @@ const PopOut = (el) => {
 if (popped==="none"){
  holder = el;
  setPopped("visible")
- return
+ console.log('HI')
  }
 //  else if (popped==="visible"){
 //   holder = <></>
 //   setPopped("none")
 //   return
 //  }
+return
 }
   // function Contacting(){
   //   <script type="text/javascript" src="https://form.jotform.com/jsform/230366115214041"></script> 
