@@ -28,10 +28,12 @@ const PopOut = (el) => {
 if (popped==="none"){
  holder = el;
  setPopped("visible")
+ return
  }
- else if (popped==="visible"){
+ if (popped==="visible"){
   holder = <></>
   setPopped("none")
+  return
  }
 }
   // function Contacting(){
