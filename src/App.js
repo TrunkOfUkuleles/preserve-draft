@@ -7,7 +7,7 @@ function App() {
 const [picOpen, setPicOpen] = useState(false);
 const [picWidth, setPicWidth] = useState("500px");
 const [picHeight, setPicHeight] = useState("300px");
-const [popped, setPopped] = useState("none");
+// const [popped, setPopped] = useState("none");
 
 function enbiggen(){
   if (!picOpen){
@@ -23,10 +23,9 @@ function enbiggen(){
 }
 
 let holder = <></>;
-let shoepic = <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture absorbing dribox with high barrier zipper bag" id="shoe-pic" width="200px" height="135px" />;
+// let shoepic = <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture absorbing dribox with high barrier zipper bag" id="shoe-pic" width="200px" height="135px" />;
 
-function PopOut(el){
-
+// function PopOut(el){
 // if (popped==="none"){
 //  holder = el;
 //  setPopped("visible")
