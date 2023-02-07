@@ -24,7 +24,7 @@ function enbiggen(){
 
 let holder = <></>;
 let shoepic = <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture absorbing dribox with high barrier zipper bag" id="shoe-pic" width="200px" height="135px" />;
-const PopOut = (el) => {
+function PopOut(el) {
 if (popped==="none"){
  holder = el;
  setPopped("visible")
@@ -45,7 +45,7 @@ return
   return (
     <div className="App">
     <div id="Header-Cont">
-      <div id="Header-Title"><img src=".\PTlogo.png" id="logo-badge" width="75px" height="75px" title="Preservation Technologies Logo" alt="header logo for preservatioin technologies information page" onClick={PopOut(shoepic)} />
+      <div id="Header-Title"><img src=".\PTlogo.png" id="logo-badge" width="75px" height="75px" title="Preservation Technologies Logo" alt="header logo for preservatioin technologies information page" onClick={()=>PopOut(shoepic)} />
 <h1 id="Title-Text">Preservation Technologies2</h1></div>
       {/* <div id="Header-Stuffs">Contact Us</div> */}
     </div>
