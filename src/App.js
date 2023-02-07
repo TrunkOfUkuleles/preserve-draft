@@ -30,11 +30,11 @@ if (popped==="none"){
  setPopped("visible")
  return
  }
- if (popped==="visible"){
-  holder = <></>
-  setPopped("none")
-  return
- }
+//  else if (popped==="visible"){
+//   holder = <></>
+//   setPopped("none")
+//   return
+//  }
 }
   // function Contacting(){
   //   <script type="text/javascript" src="https://form.jotform.com/jsform/230366115214041"></script> 
