@@ -22,7 +22,7 @@ function enbiggen(){
   return setPicOpen(!picOpen)
 }
 
-let holder = <></>
+let holder = <></>;
 let shoepic = <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture absorbing dribox with high barrier zipper bag" id="shoe-pic" width="200px" height="135px" />;
 const PopOut = (el) => {
 if (popped==="none"){
@@ -46,11 +46,11 @@ return
     <div className="App">
     <div id="Header-Cont">
       <div id="Header-Title"><img src=".\PTlogo.png" id="logo-badge" width="75px" height="75px" title="Preservation Technologies Logo" alt="header logo for preservatioin technologies information page" onClick={PopOut(shoepic)} />
-<h1 id="Title-Text">Preservation Technologies</h1></div>
+<h1 id="Title-Text">Preservation Technologies2</h1></div>
       {/* <div id="Header-Stuffs">Contact Us</div> */}
     </div>
       <div id="Main-Body">
-        <div id="popout" visible={popped}>{holder}</div>
+        <div id="popout" visible={popped} width="500px;" height="500px">{holder}</div>
         <div id="section1" className="section-container">
           <div id="section1-title" className="section-title"><h2>Preservation Vs Time and Environment</h2></div>
           <div id="section1-cont">Keeping your goods fresh has always been a struggle. From everyday foods to the historical and cultural artifacts we use to look 
