@@ -24,18 +24,19 @@ function enbiggen(){
 
 let holder = <></>;
 let shoepic = <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture absorbing dribox with high barrier zipper bag" id="shoe-pic" width="200px" height="135px" />;
-function PopOut(el) {
-if (popped==="none"){
- holder = el;
- setPopped("visible")
- console.log('HI')
- }
+
+function PopOut(el){
+
+// if (popped==="none"){
+//  holder = el;
+//  setPopped("visible")
+//  console.log('HI')
+//  }
 //  else if (popped==="visible"){
 //   holder = <></>
 //   setPopped("none")
 //   return
 //  }
-return
 }
   // function Contacting(){
   //   <script type="text/javascript" src="https://form.jotform.com/jsform/230366115214041"></script> 
