@@ -7,7 +7,7 @@ function App() {
 const [picOpen, setPicOpen] = useState(false);
 const [picWidth, setPicWidth] = useState("500px");
 const [picHeight, setPicHeight] = useState("300px");
-const [popped, setPopped] = useState("hidden");
+// const [popped, setPopped] = useState("hidden");
 
 function enbiggen(){
   if (!picOpen){
@@ -22,21 +22,21 @@ function enbiggen(){
   return setPicOpen(!picOpen)
 }
 
-let holder = <></>;
-let shoepic = <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture absorbing dribox with high barrier zipper bag" id="shoe-pic" width="200px" height="135px" />;
+// let holder = <></>;
+// let shoepic = <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture absorbing dribox with high barrier zipper bag" id="shoe-pic" width="200px" height="135px" />;
 
-function PopOut(el){
-if (popped==="none"){
- holder = el;
- setPopped("visible")
- console.log('HI')
- }
- else if (popped==="visible"){
-  holder = <></>
-  setPopped("hidden")
-  console.log("BYE")
- }
-}
+// function PopOut(el){
+// if (popped==="none"){
+//  holder = el;
+//  setPopped("visible")
+//  console.log('HI')
+//  }
+//  else if (popped==="visible"){
+//   holder = <></>
+//   setPopped("hidden")
+//   console.log("BYE")
+//  }
+// }
   // function Contacting(){
   //   <script type="text/javascript" src="https://form.jotform.com/jsform/230366115214041"></script> 
 
@@ -52,7 +52,7 @@ if (popped==="none"){
       <div id="Main-Body">
         <div id="popout" visible={popped} width="500px;" height="500px">{holder}</div>
         <div id="section1" className="section-container">
-          <buttion id="testo" onClick={()=>PopOut(<>"hello"</>)}>test</buttion>
+          <buttion id="testo">test</buttion>
           <div id="section1-title" className="section-title"><h2>Preservation Vs Time and Environment</h2></div>
           <div id="section1-cont">Keeping your goods fresh has always been a struggle. From everyday foods to the historical and cultural artifacts we use to look 
           back on our society, the conservation of goods in the face of environmental, biological, and physical factors has always been a balancing act to find an 
@@ -61,6 +61,8 @@ if (popped==="none"){
           leftovers by a lot. Even today where more and more people have brought home tools like Vacuum Sealing machines, the understanding of how to preserve has 
           changed and updated as technology has developed. The process by which we refine and improve our techniques is never ending. </div>
         </div>
+        <div className="vll"></div>
+        <div className="vlr"></div>
         <div id="section2" className="section-container">
           <div id="section2-title" className="section-title"><h2>The Power of Oxygen</h2></div>
           <div id="section2-cont">

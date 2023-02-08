@@ -43,6 +43,12 @@ color: #084B83;
 #woodpic1{
   float: none;
 }
+#section3{
+  margin: 0px auto;
+}
+#section4{
+  margin: 0px auto;
+}
 }
 
 .App{
@@ -134,13 +140,13 @@ color: #084B83;
   font-size: 24px;
 }
 #woodpic1{
-  float: left;
+  float: right;
   margin-right: 15px;
   margin-bottom: 7px;
 
 }
 #shoe-pic{
-  float: right;
+  float: left;
 }
 #concluding{
   margin: 25px auto;
@@ -149,4 +155,14 @@ color: #084B83;
 }
 #review-pic{
   margin: 15px auto;
+}
+.vll{
+  border-left:4px soild #084B83;
+  height: 400px;
+  left:10%;
+}
+.vlr{
+  border-left:4px soild #084B83;
+  height: 400px;
+  right:10%;
 }
