@@ -45,7 +45,7 @@ let holder = <></>;
   return (
     <div className="App">
     <div id="Header-Cont">
-      <div id="Header-Title" ><img src=".\PTlogo.png" id="logo-badge" width="75px" height="75px" title="Preservation Technologies Logo" alt="header logo for preservatioin technologies information page" />
+      <div id="Header-Title" onClick={()=>{setPopped("visible")}}><img src=".\PTlogo.png" id="logo-badge" width="75px" height="75px" title="Preservation Technologies Logo" alt="header logo for preservatioin technologies information page" />
 <h1 id="Title-Text">Preservation Technologies2</h1></div>
       {/* <div id="Header-Stuffs">Contact Us</div> */}
     </div>
