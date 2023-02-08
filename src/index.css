@@ -22,12 +22,10 @@ color: #084B83;
 #section2-cont1{
   flex-direction: column;
 }
-#oxygen-free-study{
-  margin: auto;
-}
+
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 700px){
   #Main-Body{
     border: solid #F5F3F5 3px;
     background-color: #F5F3F5;
@@ -38,15 +36,18 @@ color: #084B83;
     justify-items: flex-start;
 }
 #study-chart{
-  max-width: 70vw;
+  max-width: 60%;
 }
 #woodpic1{
   float: none;
+  margin: auto;
 }
 #section3{
+  margin-left: unset;
   margin: 0px auto;
 }
 #section4{
+  margin-left: unset;
   margin: 0px auto;
 }
 }
@@ -102,7 +103,7 @@ color: #084B83;
   max-height: 250px;
 }
 #oxygen-free-study{
-  margin: auto 25px;
+  margin: auto 10px;
 }
 #Footer-Cont{
     display: flex;

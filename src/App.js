@@ -63,7 +63,7 @@ function enbiggen(){
           <div id="section2-title" className="section-title"><h2>The Power of Oxygen</h2></div>
           <div id="section2-cont">
            <div id="section2-cont1">
-              <img id="oxygen-free-study" src="oxygenfree.png" alt="EBook from Shin Maekawas preservation study caled Oxygen Free Museum Cases" title="Research in Conservation - Oxygen Free Museum Cases" width="150px" height="200px" />
+              <img id="oxygen-free-study" src="oxygenfree.png" alt="EBook from Shin Maekawas preservation study caled Oxygen Free Museum Cases" title="Research in Conservation - Oxygen Free Museum Cases"  />
               <p>&ensp;What now sounds like common sense was not always the case for our understanding of preservation. One key study to prove the effectiveness of an
                  oxygen free environment on keeping biological growth to a minimum was a collaboration between the Getty and various museums over the course of years. 
                  Starting in the 80s with a series of collaborative experiments centered around Egyptian Sarcophagi and other relics. Collected as part of a series of 
