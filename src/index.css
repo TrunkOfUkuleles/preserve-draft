@@ -50,6 +50,10 @@ color: #084B83;
   margin-left: unset;
   margin: 0px auto;
 }
+#oxygen-free-study{
+  margin: unset;
+  margin: auto;
+}
 }
 
 .App{
@@ -104,6 +108,7 @@ color: #084B83;
 }
 #oxygen-free-study{
   margin: auto 10px;
+  width: 200px;
 }
 #Footer-Cont{
     display: flex;
