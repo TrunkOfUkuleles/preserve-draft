@@ -7,7 +7,7 @@ function App() {
 const [picOpen, setPicOpen] = useState(false);
 const [picWidth, setPicWidth] = useState("500px");
 const [picHeight, setPicHeight] = useState("300px");
-const [popped, setPopped] = useState("hidden");
+// const [popped, setPopped] = useState("hidden");
 
 function enbiggen(){
   if (!picOpen){
@@ -23,7 +23,7 @@ function enbiggen(){
 }
 
 // let holder = <></>;
-let shoepic = <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture absorbing dribox with high barrier zipper bag" id="shoe-pic" width="200px" height="135px" />;
+// let shoepic = <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture absorbing dribox with high barrier zipper bag" id="shoe-pic" width="200px" height="135px" />;
 
 // function PopOut(el){
 // if (popped==="none"){
@@ -45,12 +45,11 @@ let shoepic = <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture 
   return (
     <div className="App">
     <div id="Header-Cont">
-      <div id="Header-Title" onClick={()=>{setPopped("visible")}}><img src=".\PTlogo.png" id="logo-badge" width="75px" height="75px" title="Preservation Technologies Logo" alt="header logo for preservatioin technologies information page" />
+      <div id="Header-Title" ><img src=".\PTlogo.png" id="logo-badge" width="75px" height="75px" title="Preservation Technologies Logo" alt="header logo for preservatioin technologies information page" />
 <h1 id="Title-Text">Preservation Technologies2</h1></div>
       {/* <div id="Header-Stuffs">Contact Us</div> */}
     </div>
       <div id="Main-Body">
-        <div id="popout" visible={popped} width="500px;" height="500px">{shoepic}</div>
         <div id="section1" className="section-container">
           <buttion id="testo">test</buttion>
           <div id="section1-title" className="section-title"><h2>Preservation Vs Time and Environment</h2></div>
