@@ -22,8 +22,8 @@ function enbiggen(){
   return setPicOpen(!picOpen)
 }
 
-let holder = <></>;
-// let shoepic = <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture absorbing dribox with high barrier zipper bag" id="shoe-pic" width="200px" height="135px" />;
+// let holder = <></>;
+let shoepic = <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture absorbing dribox with high barrier zipper bag" id="shoe-pic" width="200px" height="135px" />;
 
 // function PopOut(el){
 // if (popped==="none"){
@@ -50,7 +50,7 @@ let holder = <></>;
       {/* <div id="Header-Stuffs">Contact Us</div> */}
     </div>
       <div id="Main-Body">
-        <div id="popout" visible={popped} width="500px;" height="500px">{holder}</div>
+        <div id="popout" visible={popped} width="500px;" height="500px">{shoepic}</div>
         <div id="section1" className="section-container">
           <buttion id="testo">test</buttion>
           <div id="section1-title" className="section-title"><h2>Preservation Vs Time and Environment</h2></div>
@@ -61,8 +61,6 @@ let holder = <></>;
           leftovers by a lot. Even today where more and more people have brought home tools like Vacuum Sealing machines, the understanding of how to preserve has 
           changed and updated as technology has developed. The process by which we refine and improve our techniques is never ending. </div>
         </div>
-        <div className="vll"></div>
-        <div className="vlr"></div>
         <div id="section2" className="section-container">
           <div id="section2-title" className="section-title"><h2>The Power of Oxygen</h2></div>
           <div id="section2-cont">

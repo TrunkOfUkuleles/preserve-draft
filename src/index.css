@@ -156,13 +156,3 @@ color: #084B83;
 #review-pic{
   margin: 15px auto;
 }
-.vll{
-  border-left:4px soild #084B83;
-  height: 400px;
-  left:10%;
-}
-.vlr{
-  border-left:4px soild #084B83;
-  height: 400px;
-  right:10%;
-}
