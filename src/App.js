@@ -4,23 +4,23 @@ import './App.css';
 
 function App() {
 
-const [picOpen, setPicOpen] = useState(false);
-const [picWidth, setPicWidth] = useState("500px");
-const [picHeight, setPicHeight] = useState("300px");
+// const [picOpen, setPicOpen] = useState(false);
+// const [picWidth, setPicWidth] = useState("500px");
+// const [picHeight, setPicHeight] = useState("300px");
 // const [popped, setPopped] = useState("hidden");
 
-function enbiggen(){
-  if (!picOpen){
-    setPicWidth("80%");
-    setPicHeight("20%");
-  }
+// function enbiggen(){
+//   if (!picOpen){
+//     setPicWidth("80%");
+//     setPicHeight("20%");
+//   }
 
-  if (picOpen){
-    setPicWidth("500px");
-    setPicHeight("300px");
-  }
-  return setPicOpen(!picOpen)
-}
+//   if (picOpen){
+//     setPicWidth("500px");
+//     setPicHeight("300px");
+//   }
+//   return setPicOpen(!picOpen)
+// }
 
 // let holder = <></>;
 // let shoepic = <img src="shoesaver.jpg" alt="Shoe Saving combination of moisture absorbing dribox with high barrier zipper bag" id="shoe-pic" width="200px" height="135px" />;
@@ -46,7 +46,7 @@ function enbiggen(){
     <div className="App">
     <div id="Header-Cont">
       <div id="Header-Title" ><img src=".\PTlogo.png" id="logo-badge" width="75px" height="75px" title="Preservation Technologies Logo" alt="header logo for preservatioin technologies information page" />
-<h1 id="Title-Text">Preservation Technologies2</h1></div>
+<h1 id="Title-Text">Preservation Technologies</h1></div>
       {/* <div id="Header-Stuffs">Contact Us</div> */}
     </div>
       <div id="Main-Body">
@@ -135,7 +135,7 @@ function enbiggen(){
          
           </div>
         </div> 
-
+        <hr />
         <div id="concluding">
           <div>Scientists continue developing new techniques and tools to improve our ability to preserve the things we care about. From full airtight museum grade 
           cases, to high barrier flexible film containers - consistant humidity and low oxygen environments steady below .1% show a significant drop in bacterial 
