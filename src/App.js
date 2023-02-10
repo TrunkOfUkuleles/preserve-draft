@@ -145,7 +145,7 @@ function App() {
           costs and have descovered the hard way just how important tools like that are in keeping goods fresh. Seeing examples like the Keto Dessert box, 
           highlighted below show how that decision could not only cost products in the distribution channels, but also trust from consumers who notice a change 
           in quality.  </div>
-          <img id="review-pic" src="SmartBake.desiccant.review.jpg" alt="Negative Amazon review of Gluten free Keto dessert bars after they removed oxygen absorbers from the standard box" width={picWidth} height={picHeight} onClick={() => enbiggen()} />
+          <img id="review-pic" src="SmartBake.desiccant.review.jpg" alt="Negative Amazon review of Gluten free Keto dessert bars after they removed oxygen absorbers from the standard box" />
         </div>
       </div>
       <div id="Footer-Cont">
