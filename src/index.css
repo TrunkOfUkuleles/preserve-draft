@@ -134,7 +134,7 @@ color: #084B83;
 }
 #review-pic{
   margin: 15px 10%;
-  width: 80vw;
+  width: 80%;
   height: 30%;
 }
 
@@ -197,5 +197,10 @@ color: #084B83;
 }
 .title-text{
   font-size: 2rem;
+}
+#review-pic{
+  margin: 10px 0px;
+  width: 100%;
+  height: 30%;
 }
 }
