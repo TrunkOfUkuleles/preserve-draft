@@ -104,7 +104,7 @@ color: #084B83;
 }
 #section3{
   max-width: 80%;
-  margin-left: 10vw;
+  /* margin-left: 10vw; */
   text-align:left;
   padding: 5px 10px;
 }
@@ -133,7 +133,7 @@ color: #084B83;
   padding: 5px 10px;
 }
 #review-pic{
-  margin: 15px auto;
+  margin: 15px 10%;
   width: 80vw;
   height: 30%;
 }
@@ -160,10 +160,7 @@ color: #084B83;
     margin: 10px 5vw;
     align-items: flex-start;
 }
-.section-container{
-  width:100%;
-  padding: 0px;
-}
+
 #study-chart{
   max-height: unset;
   max-width: unset;
@@ -191,7 +188,14 @@ color: #084B83;
   text-align: unset;
   text-align: center;
 }
+.section-container{
+  width:100%;
+  padding: 0px;
+}
 #oxygen-free-study{
   margin: auto;
+}
+.review-pic{
+
 }
 }
