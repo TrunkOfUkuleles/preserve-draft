@@ -5,8 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#806D40
-  
+  background-color:#806D40;
 }
 
 code {
@@ -28,42 +27,7 @@ color: #084B83;
 }
 }
 
-@media screen and (max-width: 700px){
-  #Main-Body{
-    border: solid #F5F3F5 3px;
-    background-color: #F5F3F5;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    margin: 10px 5vw;
-    justify-items: flex-start;
-}
-#study-chart{
-  max-height: unset;
-  max-width: unset;
-  max-width: 100%;
-}
-#woodpic1{
-  float: none;
-  margin: auto;
-}
-#section3{
-  margin-left: unset;
-  margin: 0px auto;
-}
-#section4{
-  margin-right: unset;
-  margin: 0px auto;
-}
-#section3-title{
-  text-align: unset;
-  text-align: center;
-}
-#section4-title{
-  text-align: unset;
-  text-align: center;
-}
-}
+
 
 .App{
   background-color:#806D40;
@@ -170,4 +134,48 @@ color: #084B83;
 }
 #review-pic{
   margin: 15px auto;
+}
+
+@media screen and (max-width: 700px){
+  #Main-Body{
+    border: solid #F5F3F5 3px;
+    background-color: #F5F3F5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5vw;
+    align-items: flex-start;
+}
+.section-container{
+  width:100%;
+  padding: 0px;
+}
+#study-chart{
+  max-height: unset;
+  max-width: unset;
+  max-width: 100%;
+}
+#woodpic1{
+  float: none;
+  margin: auto;
+}
+#section3{
+  margin-left: unset;
+  margin: 0px auto;
+}
+#section4{
+  margin-right: unset;
+  margin: 0px auto;
+}
+#section3-title{
+  text-align: unset;
+  text-align: center;
+}
+#section4-title{
+  text-align: unset;
+  text-align: center;
+}
+#oxygen-free-study{
+  margin: auto;
+}
 }
